@@ -64,7 +64,7 @@ function reponseItilizateAn() {
             scoreDisplay.style.color = "yellow"
             valider.disabled = true
 
-            partagerBox.innerHTML = `<button class="partager" data-url="https://falandyjean.github.io/AzerType/">Partager</button>`
+            partagerBox.innerHTML = `<button class="partager" data-url="https://shorturl.at/dEP45">Partager</button>`
 
             document.querySelector(".partager").addEventListener("click", ()=> {
                 const url = encodeURIComponent(document.querySelector(".partager").getAttribute("data-url"))

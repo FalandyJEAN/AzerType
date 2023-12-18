@@ -55,7 +55,6 @@ function reponseItilizateAn() {
         console.log(reponseItilizate)
         if ((phrases.checked || mots.checked) && reponseItilizate === zoneProposition.textContent) {
             score++
-            total++
         }
         
         if (phrases.checked || mots.checked){

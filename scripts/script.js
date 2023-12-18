@@ -68,7 +68,7 @@ function reponseItilizateAn() {
 
             document.querySelector(".partager").addEventListener("click", ()=> {
                 const url = encodeURIComponent(document.querySelector(".partager").getAttribute("data-url"))
-                const message = `🚀 Hey, devine quoi ?! 🚀Je viens de terminer un super jeu de mots et devinettes, et mon score est de ${score} sur 5! 😎💪Penses-tu pouvoir faire mieux? 🤔 Essaye le jeu et défie-moi! 👉 ${url}`
+                const message = `🚀 Hey, devine quoi ?! 🚀Je viens de terminer un super jeu de saisie de mots et phrases, et mon score est de ${score} sur 5! 😎💪Penses-tu pouvoir faire mieux? 🤔 Essaye le jeu et défie-moi! 👉 ${url}`
                 window.location.href = 'whatsapp://send?text=' + message
             })
         } else {

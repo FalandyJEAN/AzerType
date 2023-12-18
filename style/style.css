@@ -201,6 +201,7 @@ a{
         z-index: 1000;
         background-image: linear-gradient(gray,black);
         border: 1 solid black;
+        position: fixed;
         bottom: 0;
     }
 }

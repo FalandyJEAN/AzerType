@@ -114,7 +114,7 @@ const listeMots = [
   'serendipite',
   'ludique',
   'incandescence',
-];
+]
 
 // Lis fraz
 const listePhrases = [
@@ -138,4 +138,4 @@ const listePhrases = [
   "Ecoutez la sagesse.",
   "Revez grand.",
   "Soyez reconnaissant.",
-];
+]

@@ -60,7 +60,7 @@ function reponseItilizateAn() {
         total++
 
         if (total === 5) {
-            scoreDisplay.textContent = `Vous avez atteint un score de ${score}/${total} !`
+            scoreDisplay.textContent = `Vous avez atteint un score de ${score}/${total} .`
             scoreDisplay.style.color = "yellow"
             valider.disabled = true
 
